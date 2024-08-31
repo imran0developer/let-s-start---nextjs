@@ -1,0 +1,216 @@
+{
+  "version": "6.0",
+  "nxVersion": "19.3.0",
+  "deps": {
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@radix-ui/react-dialog": "^1.0.5",
+    "@radix-ui/react-label": "^2.0.2",
+    "@radix-ui/react-menubar": "^1.0.4",
+    "@radix-ui/react-navigation-menu": "^1.1.4",
+    "@radix-ui/react-slot": "^1.0.2",
+    "@remix-run/react": "^2.9.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.2.9",
+    "lucide-react": "^0.379.0",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.1",
+    "next": "14.2.3",
+    "next-auth": "^4.24.7",
+    "next-themes": "^0.3.0",
+    "nx": "^19.3.0",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-google-button": "^0.8.0",
+    "react-icons": "^5.2.1",
+    "strip-ansi": "^7.1.0",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1"
+  },
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {},
+    "nonProjectFiles": [
+      {
+        "file": ".gitignore",
+        "hash": "15751075988610075934"
+      },
+      {
+        "file": "README.md",
+        "hash": "15572069087284247795"
+      },
+      {
+        "file": "app/api/auth/[...nextauth]/route.js",
+        "hash": "5455110972914439682"
+      },
+      {
+        "file": "app/api/users/route.js",
+        "hash": "9819186192577589846"
+      },
+      {
+        "file": "app/config/config.js",
+        "hash": "135203929015038336"
+      },
+      {
+        "file": "app/favicon.ico",
+        "hash": "9157999678830540297"
+      },
+      {
+        "file": "app/globals.css",
+        "hash": "10269804712455849330"
+      },
+      {
+        "file": "app/layout.js",
+        "hash": "1387592153276048847"
+      },
+      {
+        "file": "app/page.jsx",
+        "hash": "15324226723622111417"
+      },
+      {
+        "file": "app/profile/page.jsx",
+        "hash": "3024767868719324579"
+      },
+      {
+        "file": "app/test/page.jsx",
+        "hash": "17017797506778257444"
+      },
+      {
+        "file": "components.json",
+        "hash": "16590718917934159711"
+      },
+      {
+        "file": "components/SessionWrapper.jsx",
+        "hash": "229203670505206014"
+      },
+      {
+        "file": "components/authButton.jsx",
+        "hash": "12224158116534784404"
+      },
+      {
+        "file": "components/footer.jsx",
+        "hash": "12817633147928527692"
+      },
+      {
+        "file": "components/logo.jsx",
+        "hash": "6662453220129798059"
+      },
+      {
+        "file": "components/navbar.jsx",
+        "hash": "16901105746275905683"
+      },
+      {
+        "file": "components/theme-provider.jsx",
+        "hash": "11219969334116409725"
+      },
+      {
+        "file": "components/ui/button.jsx",
+        "hash": "3632391648551242266"
+      },
+      {
+        "file": "components/ui/card.jsx",
+        "hash": "11481794404971454886"
+      },
+      {
+        "file": "components/ui/dialog.jsx",
+        "hash": "16761202027310774635"
+      },
+      {
+        "file": "components/ui/input.jsx",
+        "hash": "2974043228767650600"
+      },
+      {
+        "file": "components/ui/label.jsx",
+        "hash": "16523280576631002567"
+      },
+      {
+        "file": "components/ui/menubar.jsx",
+        "hash": "13842277346499279146"
+      },
+      {
+        "file": "db/user.js",
+        "hash": "10655031623656291486"
+      },
+      {
+        "file": "jsconfig.json",
+        "hash": "9762051661086579638"
+      },
+      {
+        "file": "lib/mongodb.js",
+        "hash": "10377093726930604158"
+      },
+      {
+        "file": "lib/utils.js",
+        "hash": "16074973913623246779"
+      },
+      {
+        "file": "next.config.mjs",
+        "hash": "17576637041073006611"
+      },
+      {
+        "file": "package-lock.json",
+        "hash": "9559360703660253817"
+      },
+      {
+        "file": "package.json",
+        "hash": "457947460834609354"
+      },
+      {
+        "file": "postcss.config.mjs",
+        "hash": "2557392112968376575"
+      },
+      {
+        "file": "public/color_github.svg",
+        "hash": "5506718647275499680"
+      },
+      {
+        "file": "public/color_google.svg",
+        "hash": "58992723180661527"
+      },
+      {
+        "file": "public/facebook.svg",
+        "hash": "12129023480210482622"
+      },
+      {
+        "file": "public/github.svg",
+        "hash": "9762553698094241554"
+      },
+      {
+        "file": "public/linkedin.svg",
+        "hash": "6209559128834508933"
+      },
+      {
+        "file": "public/logo.svg",
+        "hash": "10567837232753160719"
+      },
+      {
+        "file": "public/next.svg",
+        "hash": "8300767200008744458"
+      },
+      {
+        "file": "public/no_user.svg",
+        "hash": "198404426757957631"
+      },
+      {
+        "file": "public/twitter.svg",
+        "hash": "13177395360603053842"
+      },
+      {
+        "file": "public/vercel.svg",
+        "hash": "2376673330454856631"
+      },
+      {
+        "file": "tailwind.config.js",
+        "hash": "6265917615194201179"
+      },
+      {
+        "file": "yarn.lock",
+        "hash": "64528759302413788"
+      }
+    ]
+  }
+}
